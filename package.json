@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
     "next": "10.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "socket.io": "^2.3.0",
+    "swr": "^0.3.8"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.9.6"
   }
 }
